@@ -2,10 +2,10 @@
 #include<string.h>
 char stack[20];
 int top=-1;
-int pop(){
+void pop(){
     top-=1;
 }
-int push(char element){
+void push(char element){
     stack[++top] = element;
 }
 int topElement(){
@@ -18,7 +18,7 @@ int main(){
     char list[20], tmp;
     printf("Enter series of brackets ");
     scanf("%s",&list);
-    for(int i=0;i<strlen(list);i++){
+    for(int i=0;i<(int)strlen(list);i++){
         if(list[i]=='(' || list[i]=='{' || list[i]=='['){
             push(list[i]);
         }
@@ -30,7 +30,7 @@ int main(){
             }else pop();
             }else printf("\nBrackets are unbalanced at position %d",i+1);
         }
-        if(i==(strlen(list)-1) && isEmpty()){
+        if(i==((int)strlen(list)-1) && isEmpty()){
             printf("Brackets are balanced");
             }
         else {
