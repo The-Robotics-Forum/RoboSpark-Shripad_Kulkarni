@@ -1,0 +1,5 @@
+Day 3 Task
+
+1)Queue:- Create a structure of students containing name,roll numbers. Create a queue of students (alongwith functions) which only allow students with even roll numbers.
+
+2)Trees:- Understand and write the code for Postorder Traversal. Understand and write the code for inserting a new node/searching whether node with given value is present in Binary Search Tree(BST).
