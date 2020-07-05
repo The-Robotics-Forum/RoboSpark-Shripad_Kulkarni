@@ -1,0 +1,11 @@
+Day 4 Tasks
+
+1) Create a student class. Add the necessary data members and also add a dynamic array to store the marks of 5 subjects (use new keyword). Initialize the data members using constructors. We don't know the cgpa yet so assign it some random value in constructor. Write following functions inside the class -
+Function to return the total marks. Function to calculate and store the cgpa in the variable, Funtion to take input (Dont take cgpa as input) and to display the data.
+Think : Where can you use delete keyword to free the memory allocated to the marks array.
+
+2) Overload the showRank function in the following way -
+  1.When the function has only int as an argument, print that integer as rank.
+  2. When the function has only student as an argument, print the student details and print "no rank".
+  3. When the function received one student and one int as arguments, print the student details and the rank.
+  4. Rank is not a data member of Student
