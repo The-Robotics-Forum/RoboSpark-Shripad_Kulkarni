@@ -1,4 +1,5 @@
 Day 6 Task
+
 Create a linked list with 4 nodes and two functions-
   1. Addition/Insertion of a Node 
   2. Deletion of a Node
