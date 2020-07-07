@@ -1,0 +1,5 @@
+Day 7 Task
+
+Create your own String class. Implement String class similar to the strings in Python and C++. (The way we implemented the List class). 
+Overload+ operator to concatenate two string. Overload* operator to multiply string. (Ex: "yash"2 returns "yashyash"). 2"yash" should also return "yashyash". 
+Overload the input and output operator. Try to overload as many operators as you can.
