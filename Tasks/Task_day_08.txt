@@ -1,0 +1,18 @@
+Day 8 Tasks:
+
+Problem statement On Inheritance
+
+I want my Personal data, Professional data, & Academic data to be separated in different classes and 4th class called biodata.
+If I create object of biodata class then using that object I can get all my professional, personal and academic data.
+
+Decide which type of inheritance you will be using to achieve this goal .
+
+Take data members in classes as follows:
+personal class - Name, Surname, address, mobile_no, dob.
+professional class - name_of_organization, job_profile, project.
+Academic - year_of_passing, cgpa, college_name, branch
+
+member functions
+All class includes default constructor(if data members are present), and one function to get data from user for its data member.
+
+Note :- define all data members as protected so that you can access this members in its derived class directly
