@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.resume{
+    size: 70px;
+    vertical-align: text-top;
+    text-align: center;
+    color: rgb(63, 250, 7);
+    background:linear-gradient(rgba(0, 0, 0, 0),rgba(0,0,0,0)), url(4331.jpg);
+    left:0px;
+    top:0px;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+#about-section{
+    font-size: 40px;
+}
+#me{
+    font-size: 50px;
+    color: tomato;
+}
+#projects h3{
+    font-size: 50px;
+}
+#link1{
+    font-size: 20px;
+    color: blue;
+}
+#Education h3{
+    font-size: 50px;
+    color: tomato;
+}
+#Education li{
+    font-size: 40px;
+}
