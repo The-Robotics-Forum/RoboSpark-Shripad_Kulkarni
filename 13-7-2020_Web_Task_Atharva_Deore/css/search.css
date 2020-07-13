@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url("../images/bg5.jpg") fixed no-repeat;
+    background-size: cover;
+    text-transform: none;
+}
+.login-box{
+    position: absolute;
+    width: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: burlywood;
+}
+.login-box h1{
+    display: flex;
+    float: right;
+    font-size: 40px;
+    margin: 0;
+    transform: translate(-50%,-50%);
+    margin-bottom: -30px;
+    border-bottom: 6px solid burlywood;
+    padding: 12px 0;
+}
+.form_input{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid;
+}
+.form_input i{
+    width: 30px;
+    float: left;
+    text-align: center;
+}
+.form_input input{
+    border: none;
+    background: none;
+    outline: none;
+    width: 80%;
+    margin: 1px 10px;
+}
+.submit-btn{
+    width: 100%;
+    background: none;
+    font-size: 20px;
+    padding: 5px;
+    color: burlywood;
+    border: 2px solid;
+}
+.submit-btn:hover{
+    color: red;
+    background-color: lightblue;
+    transition: 0.5s;
+    cursor:  pointer;
+}
+.signup{
+    float: right;
+}
+.signup a{
+    text-decoration: none;
+    color: chartreuse;
+}
+.signup a:hover{
+    color: chartreuse;
+    transition: 0.4s;
+}
