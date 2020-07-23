@@ -1,0 +1,5 @@
+Day 13 Task:
+
+1) Create a table named students having four columns  stud_id, stud_name,  branch,  cgpa where stud_id being primary key.
+2) Create webpage(html) having  a input tag of stud_id and a  button. Once the stud_id is entered, fetch the  respective details of that stud_id from table and display it on php page wherever action of form  is done.
+3) Include html, css, php files  and screenshots of output and table in folder.

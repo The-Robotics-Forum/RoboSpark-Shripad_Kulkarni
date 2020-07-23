@@ -1,0 +1,6 @@
+Day 21 Task:
+
+Given a 50 startups datasets, Make Linear regression and visualize it. Make a regression model on marketing spend and profit columns.
+(OPTIONAL: You may make a model with different features, and visualize.)
+Don't use sklearn..
+Predict your hypothesis with 5 different marketing spend. Upload both dataset and Your jupyter Notebook to Github.
