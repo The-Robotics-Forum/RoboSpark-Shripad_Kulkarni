@@ -1,0 +1,9 @@
+Day 24 Task:
+
+Drive link under task folder. 
+link - https://drive.google.com/drive/folders/1C3FoaZ2j1rTJ1Fwi5VowzCzGDsY-WW5y?usp=sharing
+
+Task :
+Take the any one of the images from the 'Day 2->Task image' folder of the drive link you've been provided.
+Apply all the blurring techniques (filter2D, averaging, gaussian blur, median blur and bilateral filter) to the original image or the masked image, whichever you want. Save the outputs and draw a flowerpot for the flower on any of the output image. Also write the name of the flower on the image.
+While submitting the task, you should submit 1 masked image, 5 output images of blurring, 1 output of drawing and text on image, and the codes.
