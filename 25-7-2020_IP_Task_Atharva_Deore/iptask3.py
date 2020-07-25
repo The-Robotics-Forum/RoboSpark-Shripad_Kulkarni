@@ -40,16 +40,15 @@ while(1):
     for i,(new,old) in enumerate(zip(good_new, good_old)):
         a,b = new.ravel()
         c,d = old.ravel()
-        if a > c:
-            print('LEFT')
-        elif c>a:
+        if c>a:
             print('RIGHT')
+        elif c<a:
+            print('LEFT')
         mask = cv.line(mask, (a,b),(c,d), color[i].tolist(), 2)
         frame = cv.circle(frame,(a,b),5,color[i].tolist(),-1)
     img = cv.add(frame,mask)
 
     cv.imshow('frame',img)
-
     k = cv.waitKey(30) & 0xff
     if k == 32:
         break
