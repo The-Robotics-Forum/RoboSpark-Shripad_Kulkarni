@@ -1,0 +1,16 @@
+*{
+    font-family: cursive;
+    background-color: mintcream;
+}
+
+#intro
+{
+    color: blue;
+    font-size: 50px;
+}
+
+.project-title
+{
+    font-size: x-large;
+    color: red;
+}
